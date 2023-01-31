@@ -69,7 +69,7 @@ public class ActivityPrincipal extends AppCompatActivity {
                 Boolean continuar = ValidarDatos();
 
                 if (continuar){
-                    Toast.makeText(ActivityPrincipal.this,"Datos Completos",Toast.LENGTH_LONG).show();
+                    Toast.makeText(ActivityPrincipal.this,"Datos Completos",Toast.LENGTH_SHORT).show();
                     ltDatos[5] = (genero);
                     Bundle parametros = new Bundle();
                     parametros.putStringArray("lista", ltDatos);

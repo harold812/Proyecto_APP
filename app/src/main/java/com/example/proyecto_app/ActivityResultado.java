@@ -30,11 +30,11 @@ public class ActivityResultado extends AppCompatActivity {
 
         lista = (String[]) parametros.getSerializable("lista");
 
-        tvNombres.setText("Nombres:" + "/n" + lista[0]);
-        tvApellidos.setText("Apellidos:" + "/n" + lista[1]);
-        tvTelefono.setText("Telefono:" + "/n" + lista[2]);
-        tvDireccion.setText("Direccion:" + "/n" + lista[3]);
-        tvCorreo.setText("Correo:" + "/n" + lista[4]);
-        tvGenero.setText("Genero:" + "/n" + lista[5]);
+        tvNombres.setText("Nombres: " + lista[0]);
+        tvApellidos.setText("Apellidos :" + lista[1]);
+        tvTelefono.setText("Telefono: "  + lista[2]);
+        tvDireccion.setText("Direccion: " + lista[3]);
+        tvCorreo.setText("Correo: " + lista[4]);
+        tvGenero.setText("Genero: " + lista[5]);
     }
 }
